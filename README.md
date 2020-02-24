@@ -1,9 +1,9 @@
 # mail-csv
 
-ABOUT
+About
 ------------
 
-The function of this application will be to send emails automatically from a list in a CSV file<br>
+* The function of this application will be to send emails automatically from a list in a CSV file<br>
 
 Requirements
 ------------
