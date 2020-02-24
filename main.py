@@ -10,12 +10,10 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 import smtplib
 
-# mensagem qeu será enviada
-message = '''
+# extrai a mensagem do arquivo 'layout.txt'
+with open('layout.txt', 'r', encoding="utf8") as arquivo:
+    message = arquivo.read()
 
-Desenvolvido por Jamerson Walderson
-
-'''
 # cria a instancia para a mensagem
 msg = MIMEMultipart()
 # seu e-mail e senha
@@ -25,7 +23,7 @@ from_email = my_email
 
 # separar da seguinte forma ['','','']
 # caso queira fazer um teste existem sites como o 10MinuteMail
-to_email = ['']
+to_email = ['g']
 # titulo da mensagem
 msg['Subject'] = "Enviada atrávez de um script"
 
