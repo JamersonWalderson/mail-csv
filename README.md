@@ -23,8 +23,8 @@ fill `my_email = ""` and `to_email = ""` in the code and then write the message 
 - [ ] Salvar no arquivo CSV se o e-mail foi enviado com sucesso ou ocorreu algum erro.
 
 # Requisitos não funcionais
-- [ ] Arquivo de config
-- [ ] Desenvolver interface com PyQt5
+- [ ] Arquivo de config.
+- [ ] Desenvolver interface com PyQt5.
 
 # Regras de negócio
 - Não salvar os dados sensíveis do usuário como logins e senha.
