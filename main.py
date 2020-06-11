@@ -34,10 +34,10 @@ server.starttls()
 server.login(from_email, my_password)
 
 # dispara o e-mail
-texto = msg.as_string()
+text = msg.as_string()
 try:
     for send in to_email:
-        server.sendmail(from_email, send, texto)
+        server.sendmail(from_email, send, text)
         print ("Enviado com sucesso para ", send)
 except:
     print ("Erro ao enviar e-mail para ", send)
