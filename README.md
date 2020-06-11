@@ -1,3 +1,4 @@
+![Demo](https://github.com/JamersonWalderson/mail-csv/blob/master/pic-demo.png)
 # mail-csv
 * The function of this application will be to send emails automatically from a list in a CSV file<br>
 
